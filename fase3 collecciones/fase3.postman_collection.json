@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "5ab82d38-2bad-4e4e-893a-b388a566df4f",
+		"name": "fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://{{IP}}:{{port}}/api/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{IP}}:{{port}}/api/zakaria",
+					"protocol": "http",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"zakaria"
+					]
+				},
+				"description": "hello world http get"
+			},
+			"response": []
+		},
+		{
+			"name": "http://{{IP}}:{{port}}/api/zakarias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{IP}}:{{port}}/api/zakarias",
+					"protocol": "http",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"zakarias"
+					]
+				},
+				"description": "hello <name>"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
